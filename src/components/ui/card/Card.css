@@ -1,0 +1,23 @@
+.card {
+	background: #fff;
+	border-radius: 1.25rem;
+	padding: 1.5rem;
+	box-shadow: 0 25px 60px rgba(15, 23, 42, 0.08);
+	border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.card--accent {
+	background: linear-gradient(135deg, #eef2ff, #ede9fe);
+}
+
+.card__title {
+	font-size: 1rem;
+	color: #475569;
+	margin-bottom: 0.5rem;
+}
+
+.card__value {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #0f172a;
+}

@@ -1,0 +1,39 @@
+.btn {
+	border: none;
+	border-radius: 0.75rem;
+	padding: 0.65rem 1.25rem;
+	font-weight: 600;
+	font-size: 0.95rem;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.btn--primary {
+	background: linear-gradient(135deg, #f97316, #ea580c);
+	color: white;
+	box-shadow: 0 10px 20px rgba(249, 115, 22, 0.3);
+}
+
+.btn--secondary {
+	background: #111827;
+	color: white;
+}
+
+.btn--outline {
+	background: transparent;
+	color: #f97316;
+	border: 1px solid rgba(249, 115, 22, 0.4);
+}
+
+.btn--ghost {
+	background: transparent;
+	color: #6b7280;
+}
+
+.btn:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
