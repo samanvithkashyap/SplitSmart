@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppLayout from './components/layout/AppLayout.jsx';
 import Dashboard from './components/sections/dashboard/Dashboard.jsx';
 import Expenses from './components/sections/expenses/Expenses.jsx';
@@ -16,7 +16,6 @@ function App() {
           <Route path="bills" element={<Bills />} />
           <Route path="savings" element={<Savings />} />
         </Route>
-        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );
